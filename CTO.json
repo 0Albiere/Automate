@@ -1,0 +1,39 @@
+{
+  "input": {
+    "brief_projeto": "[Descrição clara do projeto, problema, solução e público]",
+    "objetivo_principal": "[O que precisa estar funcionando no MVP]",
+    "estagio": "ideia | validacao | mvp | escala",
+    "budget": {
+      "mensal_maximo": 0,
+      "orçamento_total_inicial": 0
+    },
+    "restricoes": {
+      "prazo_entrega_dias": 0,
+      "equipe_tecnica": "solo | pequena | media | grande",
+      "stack_preferida": "",
+      "cloud_preferida": "aws | gcp | azure | outra"
+    },
+    "escala_prevista": {
+      "usuarios_mes_1": 0,
+      "usuarios_mes_6": 0,
+      "usuarios_mes_12": 0
+    },
+    "dados": {
+      "volume_inicial_mb": 0,
+      "crescimento_mensal_percentual": 0,
+      "sensibilidade": "baixa | media | alta | lgpd"
+    }
+  },
+  "agente": {
+    "id": "CTO",
+    "funcao": "Definir a estrutura tecnica do projeto, arquitetura de sistema, escolha de stack, estrategia de escalabilidade, seguranca e plano de testes",
+    "entregaveis": [
+      "system_design",
+      "arquitetura_tecnica",
+      "stack_tecnologica",
+      "plano_testes",
+      "estrategia_escalabilidade",
+      "plano_seguranca"
+    ]
+  }
+}
